@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+.row {
+ width: 100%;
+}
+
+h1 {
+  color: #000000;
+  font-size: 175%;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", Arial, Verdana, sans-serif;
+  margin-bottom: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid #000000;
+	background-color:#999999;
+	margin: 15px;
+	  }
+
+.title-1 {
+    
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	background-color:#d59898;
+	margin: none;
+	padding: 10px;
+	font-family: "Comic Sans MS", "Comic Sans", Arial, Verdana, sans-serif;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	position: relative;
+	width: 33%;
+	float: right;
+	}
+.title-2 {
+    
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	background-color:#c14543;
+	margin: none;
+	padding: 10px;
+	font-family: "Comic Sans MS", "Comic Sans", Arial, Verdana, sans-serif;
+	text-align: center;
+	font-size: 125%;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	width: 33%;
+	float: right;
+	}
+
+.title-3 {
+    
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	background-color:#e5d198;
+	margin: none;
+	padding: 10px;
+	font-family: "Comic Sans MS", "Comic Sans", Arial, Verdana, sans-serif;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	position: relative;
+	width: 33%;
+	float: right;
+	}
+ p {
+  
+  color: #000000;
+  font-size: 100%;
+  text-align: left;
+  font-family: "Comic Sans MS", "Comic Sans",Arial, Verdana, sans-serif;
+  padding: 15px;
+  margin-top: 25px;
+
+}
+
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+ 	
+		
+	#section-1 {
+ 	width: 33%;
+	float: left;
+  }
+	
+	#section-2 {
+ 	width: 33%;
+	float: left;
+  }
+	
+	#section-3 {
+ 	width: 33%;
+	float: left;
+  }
+	
+  #p {
+    
+  }
+}
+
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+	 #section-1, #section-2, #section-3 {
+ 	float: left;
+  }
+	
+		
+	#section-1 {
+ 	width: 50%;
+  }
+	
+	#section-2 {
+ 	width: 50%;
+  }
+	
+	#section-3 {
+ 	width: 100%;
+  }
+	#p {
+    width: 100px;
+    height: 100px;
+	font-family: Helvetica, Arial, sans-serif;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+	
+		
+	#section-1 {
+ 	width: 100%;
+  }
+	
+	#section-2 {
+ 	width: 100%;
+  }
+	
+	#section-3 {
+ 	width: 100%;
+  }
+	
+  #p1 {
+    width: 50%;
+  }
+  #p2 {
+    width: 100px;
+    height: 100px;
+  }
+}
